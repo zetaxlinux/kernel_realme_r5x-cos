@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd scripts/ufdt/ && rm -rf libufdt && git clone https://android.googlesource.com/platform/system/libufdt && cd ../.. && 
+
 echo -e "\033[93m==========================="
 echo -e "\033[93m= START COMPILING KERNEL  ="
 echo -e "\033[93m==========================="
